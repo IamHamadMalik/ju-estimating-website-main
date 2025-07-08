@@ -300,56 +300,58 @@ export default function ServicesNavigation() {
 					<div className="flex items-center py-1.5">
 						<div className="flex items-center space-x-1">
 							{servicesCategories.map((category) => {
-								const IconComponent = category.icon
-								return (
-									<div
-										key={category.id}
-										className="relative group"
-										onMouseEnter={() => setActiveCategory(category.id)}
-										onMouseLeave={() => setActiveCategory(null)}
-									>
-										<Link
-											href={category.href}
-											className="flex items-center px-3 py-2 text-xs font-medium text-slate-300 hover:text-white hover:bg-blue-800 rounded-md transition-all duration-200 group"
-										>
-											<IconComponent className="h-3.5 w-3.5 mr-1.5 text-slate-300 group-hover:text-white" />
-											<span>{category.title}</span>
-											<ChevronDown className="ml-1 h-2.5 w-2.5 transition-transform duration-200 group-hover:rotate-180 flex-shrink-0 text-white" />
-										</Link>
+							const IconComponent = category.icon
+							const isSample = category.id === "sample"
+							return (
+								<div key={category.id} className="relative group">
+								<Link
+									href={category.href}
+									className="flex items-center px-3 py-2 text-xs font-medium text-slate-300 hover:text-white hover:bg-blue-800 rounded-md transition-all duration-200 group"
+								>
+									<IconComponent className="h-3.5 w-3.5 mr-1.5 text-slate-300 group-hover:text-white" />
+									<span>{category.title}</span>
+									{!isSample && (
+									<ChevronDown className="ml-1 h-2.5 w-2.5 transition-transform duration-200 group-hover:rotate-180 flex-shrink-0 text-white" />
+									)}
+								</Link>
 
-										<div
-											className={`absolute top-full left-0 w-64 bg-white rounded-md shadow-lg border border-slate-100 py-1.5 z-50 transition-all duration-200 ${
-												activeCategory === category.id
-													? "opacity-100 visible transform translate-y-0"
-													: "opacity-0 invisible transform translate-y-1"
-											}`}
-										>
-											<div className="px-3 py-1.5 border-b border-slate-50">
-												<h4 className="text-xs font-semibold text-slate-700">
-													{category.title}
-												</h4>
-											</div>
-											{category.subServices.map((subService) => (
-												<Link
-													key={subService.title}
-													href={subService.href}
-													className="block px-3 py-1.5 text-xs text-slate-600 hover:bg-amber-50 hover:text-amber-600 transition-colors duration-200"
-												>
-													{subService.title}
-												</Link>
-											))}
-											<div className="px-3 py-1.5 border-t border-slate-50 mt-1">
-												<Link
-													href={category.href}
-													className="text-xs text-amber-600 hover:text-amber-700 font-medium"
-												>
-													View All {category.title} →
-												</Link>
-											</div>
-										</div>
+								{/* Dropdown content for all except Sample */}
+								{!isSample && (
+									<div
+									className={`absolute top-full left-0 w-64 bg-white rounded-md shadow-lg border border-slate-100 py-1.5 z-50 transition-all duration-200 ${
+										activeCategory === category.id
+										? "opacity-100 visible transform translate-y-0"
+										: "opacity-0 invisible transform translate-y-1"
+									}`}
+									>
+									<div className="px-3 py-1.5 border-b border-slate-50">
+										<h4 className="text-xs font-semibold text-slate-700">
+										{category.title}
+										</h4>
 									</div>
-								)
+									{category.subServices.map((subService) => (
+										<Link
+										key={subService.title}
+										href={subService.href}
+										className="block px-3 py-1.5 text-xs text-slate-600 hover:bg-amber-50 hover:text-amber-600 transition-colors duration-200"
+										>
+										{subService.title}
+										</Link>
+									))}
+									<div className="px-3 py-1.5 border-t border-slate-50 mt-1">
+										<Link
+										href={category.href}
+										className="text-xs text-amber-600 hover:text-amber-700 font-medium"
+										>
+										View All {category.title} →
+										</Link>
+									</div>
+									</div>
+								)}
+								</div>
+							)
 							})}
+
 						</div>
 					</div>
 				</div>
