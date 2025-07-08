@@ -8,31 +8,31 @@ const generalContractorSamples = [
   {
     title: "Commercial Building Estimate",
     button: "Click to View",
-    image: "https://picsum.photos/seed/commercial-build/160/160",
+    image: "https://picsum.photos/seed/commercial-build/160/100",
     link: "#",
   },
   {
     title: "Residential Renovation Bid",
     button: "Click to View",
-    image: "https://picsum.photos/seed/residential-reno/160/160",
+    image: "https://picsum.photos/seed/commercial-build/160/100",
     link: "#",
   },
   {
     title: "Industrial Project Costing",
     button: "Click to View",
-    image: "https://picsum.photos/seed/industrial-project/160/160",
+    image: "https://picsum.photos/seed/industrial-project/160/100",
     link: "#",
   },
   {
     title: "Multi-Family Unit Estimate",
     button: "Click to View",
-    image: "https://picsum.photos/seed/multi-family-unit/160/160",
+    image: "https://picsum.photos/seed/multi-family-unit/160/100",
     link: "#",
   },
   {
     title: "Multi-Family Unit Estimate",
     button: "Click to View",
-    image: "https://picsum.photos/seed/multi-family-unit/160/160",
+    image: "https://picsum.photos/seed/multi-family-unit-2/160/100",
     link: "#",
   },
 ]
@@ -51,14 +51,14 @@ const smallSubcontractorSamples = [
   { title: "OPENINGS", image: "https://picsum.photos/seed/openings/160/100", link: "#" },
   { title: "MECHANICAL", image: "https://picsum.photos/seed/mechanical/160/100", link: "#" },
   { title: "PLUMBING", image: "https://picsum.photos/seed/plumbing/160/100", link: "#" },
-  { title: "RESIDENTIAL", image: "https://picsum.photos/seed/residential-proj/200/150", link: "#" },
-  { title: "BIG COMMERCIAL", image: "https://picsum.photos/seed/big-commercial-proj/200/150", link: "#" },
-  { title: "DETAILED WITH MANHOURS", image: "https://picsum.photos/seed/detailed-manhours-proj/200/150", link: "#" },
-  { title: "ROOFING", image: "https://picsum.photos/seed/roofing-proj/200/150", link: "#" },
-  { title: "MULTI FAMILY", image: "https://picsum.photos/seed/multi-family-proj/200/150", link: "#" },
-  { title: "Sitework", image: "https://picsum.photos/seed/sitework-proj/200/150", link: "#" },
-  { title: "Industrial Piping", image: "https://picsum.photos/seed/industrial-piping-proj/200/150", link: "#" },
-  { title: "Landscaping", image: "https://picsum.photos/seed/landscaping-proj/200/150", link: "#" },
+  { title: "RESIDENTIAL", image: "https://picsum.photos/seed/residential-proj/160/100", link: "#" },
+  { title: "BIG COMMERCIAL", image: "https://picsum.photos/seed/big-commercial-proj/160/100", link: "#" },
+  { title: "DETAILED WITH MANHOURS", image: "https://picsum.photos/seed/detailed-manhours-proj/160/100", link: "#" },
+  { title: "ROOFING", image: "https://picsum.photos/seed/roofing-proj/160/100", link: "#" },
+  { title: "MULTI FAMILY", image: "https://picsum.photos/seed/multi-family-proj/160/100", link: "#" },
+  { title: "Sitework", image: "https://picsum.photos/seed/sitework-proj/160/100", link: "#" },
+  { title: "Industrial Piping", image: "https://picsum.photos/seed/industrial-piping-proj/160/100", link: "#" },
+  { title: "Landscaping", image: "https://picsum.photos/seed/landscaping-proj/160/100", link: "#" },
 ]
 
 export default function SamplesPage() {
@@ -92,8 +92,8 @@ export default function SamplesPage() {
                     src={sample.image}
                     alt={sample.title}
                     width={160}
-                    height={120}
-                    className="rounded-md mb-2 mx-auto object-cover"
+                    height={100}
+                    className="mb-2 object-cover"
                   />
                   <p className="text-sm font-medium">{sample.title}</p>
                   <span className="text-blue-600 underline text-sm">{sample.button}</span>
@@ -115,7 +115,7 @@ export default function SamplesPage() {
                     alt={sample.title}
                     width={160}
                     height={100}
-                    className="rounded-md mb-2 object-cover mx-auto"
+                    className="object-cover mb-2"
                   />
                   <p className="font-semibold text-sm">{sample.title}</p>
                   <span className="text-blue-600 underline text-xs mt-1">Click to View</span>
