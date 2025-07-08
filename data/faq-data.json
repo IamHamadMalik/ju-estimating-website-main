@@ -1,0 +1,107 @@
+[
+  {
+    "category": "General Questions",
+    "questions": [
+      {
+        "question": "What types of construction projects do you provide estimates for?",
+        "answer": "We provide estimates for all types of construction projects including commercial buildings, residential homes, industrial facilities, MEP systems, renovations, and specialty trades. Our team has experience across all construction sectors."
+      },
+      {
+        "question": "How accurate are your estimates?",
+        "answer": "Our estimates are highly accurate with a typical variance of ±5-10%. We use industry-standard software, current material pricing, and our extensive database of historical project costs to ensure precision."
+      },
+      {
+        "question": "Do you work with contractors outside of Virginia?",
+        "answer": "Yes, we work with contractors, builders, and architects nationwide. Our digital process allows us to serve clients across the United States efficiently."
+      },
+      {
+        "question": "What information do I need to provide for an estimate?",
+        "answer": "We need your project plans (architectural, structural, MEP), specifications, scope of work, project location, and timeline. The more detailed information you provide, the more accurate our estimate will be."
+      }
+    ]
+  },
+  {
+    "category": "Pricing & Billing",
+    "questions": [
+      {
+        "question": "How much do your estimating services cost?",
+        "answer": "Our pricing starts at $199 for single trade estimates. We offer monthly packages starting at $1,499 for multiple projects, and dedicated estimator services with custom pricing. Contact us for a detailed quote based on your specific needs."
+      },
+      {
+        "question": "Do you offer payment plans?",
+        "answer": "Yes, we offer flexible payment options including upfront payment, milestone-based payments, and monthly billing for our package clients. We accept all major credit cards, checks, and ACH transfers."
+      },
+      {
+        "question": "Is there a discount for multiple projects?",
+        "answer": "Yes, our monthly packages offer significant savings for clients with multiple projects. We also provide volume discounts for large contractors and repeat clients."
+      },
+      {
+        "question": "What's included in the estimate price?",
+        "answer": "Our estimate includes detailed material takeoffs, labor calculations, equipment costs, overhead and profit margins, and a comprehensive report. Revisions and consultations are included in the base price."
+      }
+    ]
+  },
+  {
+    "category": "Process & Timeline",
+    "questions": [
+      {
+        "question": "How long does it take to complete an estimate?",
+        "answer": "Most estimates are completed within 24-48 hours. Complex projects may take 3-5 business days. Rush jobs can be accommodated for an additional fee with same-day or next-day delivery."
+      },
+      {
+        "question": "What is your estimating process?",
+        "answer": "Our process includes: 1) Plan review and scope analysis, 2) Material takeoffs using industry software, 3) Labor and equipment calculations, 4) Market pricing research, 5) Quality review, and 6) Final report delivery with consultation."
+      },
+      {
+        "question": "Can you work with tight deadlines?",
+        "answer": "Yes, we understand the construction industry's fast pace. We offer expedited services for urgent projects and can often accommodate same-day requests for an additional rush fee."
+      },
+      {
+        "question": "Do you provide progress updates during the estimating process?",
+        "answer": "Yes, we provide regular updates on project status and will communicate immediately if we encounter any issues or need additional information."
+      }
+    ]
+  },
+  {
+    "category": "Technical Questions",
+    "questions": [
+      {
+        "question": "What file formats do you accept?",
+        "answer": "We accept PDF, DWG, DXF, and most CAD file formats. We can also work with hand-drawn plans, though digital files are preferred for accuracy and speed."
+      },
+      {
+        "question": "What estimating software do you use?",
+        "answer": "We use industry-leading software including PlanSwift, Bluebeam, and specialized trade software. Our tools ensure accuracy and allow for detailed takeoffs and calculations."
+      },
+      {
+        "question": "Can you integrate with my project management software?",
+        "answer": "Yes, we can export our estimates in various formats compatible with most project management and accounting software including QuickBooks, Sage, and Procore."
+      },
+      {
+        "question": "Do you provide digital takeoffs?",
+        "answer": "Yes, all our takeoffs are digital and we can provide detailed quantity reports, marked-up plans, and digital files showing our measurements and calculations."
+      }
+    ]
+  },
+  {
+    "category": "Support & Revisions",
+    "questions": [
+      {
+        "question": "What if I need revisions to the estimate?",
+        "answer": "Minor revisions are included in our service. Major scope changes or additional trades may incur additional fees. We'll discuss any potential charges before proceeding with revisions."
+      },
+      {
+        "question": "Do you provide ongoing support after delivery?",
+        "answer": "Yes, we provide consultation and support for questions about the estimate. We're available via phone, email, and live chat during business hours."
+      },
+      {
+        "question": "What if the estimate doesn't match my budget?",
+        "answer": "We can work with you to value engineer the project, suggest alternative materials or methods, or break down the estimate to help identify areas for cost savings."
+      },
+      {
+        "question": "Is my project information confidential?",
+        "answer": "Absolutely. We maintain strict confidentiality for all client projects and can sign NDAs when required. Your project information is secure and never shared with competitors."
+      }
+    ]
+  }
+]

@@ -1,0 +1,852 @@
+{
+  "services": [
+    {
+      "id": "cost-estimating",
+      "title": "Cost Estimating",
+      "slug": "cost-estimating",
+      "shortDescription": "Comprehensive project cost analysis and estimation services for all construction types.",
+      "description": "Our cost estimating services provide detailed, accurate project cost analysis for construction projects of all sizes. We use industry-standard methodologies and current market data to deliver reliable estimates that help you make informed decisions and secure bids.",
+      "icon": "Calculator",
+      "image": "/placeholder.svg?height=400&width=600",
+      "features": [
+        "Detailed cost breakdowns by CSI division",
+        "Material, labor, equipment, and subcontractor analysis",
+        "Current market rate research and adjustments",
+        "Comprehensive risk assessment and contingency planning",
+        "Value engineering recommendations for cost optimization",
+        "Comparative cost analysis against industry benchmarks"
+      ],
+      "benefits": [
+        "Accurate budget planning and financial forecasting",
+        "Reduced project risks and unexpected expenses",
+        "Informed decision-making for project viability",
+        "Enhanced competitive bidding advantage",
+        "Identification of cost-saving opportunities"
+      ],
+      "projectTypes": [
+        "Commercial buildings",
+        "Residential developments",
+        "Industrial facilities",
+        "Infrastructure projects",
+        "Renovation and remodeling",
+        "Institutional projects"
+      ],
+      "deliverables": [
+        "Detailed Cost Estimate Report (Excel/PDF)",
+        "Material Quantity Takeoffs",
+        "Labor Hour Calculations",
+        "Equipment Cost Analysis",
+        "Project Timeline with Cost Allocation"
+      ],
+      "turnaroundTime": "24-48 hours",
+      "startingPrice": "$199"
+    },
+    {
+      "id": "residential-estimating",
+      "title": "Residential Estimating",
+      "slug": "residential-estimating",
+      "shortDescription": "Accurate cost estimates for single-family homes, multi-family units, and renovations.",
+      "description": "Our residential estimating services provide precise cost analysis for all types of residential projects, from custom homes to large-scale developments. We understand the nuances of residential construction, ensuring your estimates are both accurate and competitive.",
+      "icon": "Home",
+      "image": "/placeholder.svg?height=400&width=600",
+      "features": [
+        "Detailed breakdowns for all residential components",
+        "Fixture, finish, and appliance cost analysis",
+        "Site work and landscaping estimates",
+        "Permit and inspection fee calculations",
+        "Energy efficiency upgrade cost assessments",
+        "Custom home feature costing"
+      ],
+      "benefits": [
+        "Precise budgeting for homeowners and developers",
+        "Optimized material and labor costs for residential projects",
+        "Faster project initiation with accurate upfront costs",
+        "Reduced financial surprises during construction",
+        "Enhanced profitability for residential builders"
+      ],
+      "projectTypes": [
+        "Single-family homes",
+        "Multi-family dwellings (apartments, condos)",
+        "Townhouses and duplexes",
+        "Home additions and renovations",
+        "Custom luxury homes"
+      ],
+      "deliverables": [
+        "Residential Cost Estimate Report",
+        "Room-by-Room Cost Breakdown",
+        "Material Takeoff for Residential Components",
+        "Labor and Subcontractor Cost Analysis",
+        "Project Schedule Overview"
+      ],
+      "turnaroundTime": "24-48 hours",
+      "startingPrice": "$179"
+    },
+    {
+      "id": "commercial-estimating",
+      "title": "Commercial Estimating",
+      "slug": "commercial-estimating",
+      "shortDescription": "Specialized estimating services for commercial buildings and developments.",
+      "description": "We offer expert commercial estimating services for a wide range of projects, including office buildings, retail spaces, and industrial facilities. Our team understands the complexities of commercial construction, delivering estimates that align with your business goals.",
+      "icon": "Building",
+      "image": "/placeholder.svg?height=400&width=600",
+      "features": [
+        "Comprehensive analysis for commercial structures",
+        "MEP (Mechanical, Electrical, Plumbing) system costing",
+        "Tenant improvement and fit-out estimates",
+        "Compliance with commercial building codes and regulations",
+        "Site development and infrastructure costs",
+        "Value engineering for commercial efficiency"
+      ],
+      "benefits": [
+        "Accurate budgeting for commercial investments",
+        "Optimized costs for complex commercial systems",
+        "Faster project approvals with reliable estimates",
+        "Reduced financial risks in commercial ventures",
+        "Enhanced competitive edge in commercial bidding"
+      ],
+      "projectTypes": [
+        "Office buildings and corporate campuses",
+        "Retail stores and shopping centers",
+        "Restaurants and hospitality venues",
+        "Warehouses and distribution centers",
+        "Medical and healthcare facilities"
+      ],
+      "deliverables": [
+        "Commercial Cost Estimate Report",
+        "MEP System Cost Breakdown",
+        "Tenant Improvement Cost Analysis",
+        "Site Development Cost Summary",
+        "Project Schedule and Milestones"
+      ],
+      "turnaroundTime": "48-72 hours",
+      "startingPrice": "$249"
+    },
+    {
+      "id": "industrial-estimating",
+      "title": "Industrial Estimating",
+      "slug": "industrial-estimating",
+      "shortDescription": "Precise cost estimates for industrial facilities and complex manufacturing projects.",
+      "description": "Our industrial estimating services cater to the unique demands of manufacturing plants, processing facilities, and heavy industrial projects. We provide highly detailed and accurate estimates crucial for large-scale, specialized construction.",
+      "icon": "Factory",
+      "image": "/placeholder.svg?height=400&width=600",
+      "features": [
+        "Specialized costing for industrial equipment and machinery",
+        "Process piping and instrumentation estimates",
+        "Structural steel and heavy concrete analysis",
+        "Compliance with industrial safety standards",
+        "Environmental control system costing",
+        "Logistics and material handling system estimates"
+      ],
+      "benefits": [
+        "Accurate budgeting for complex industrial investments",
+        "Optimized costs for specialized industrial components",
+        "Reduced financial risks in large-scale projects",
+        "Enhanced efficiency in industrial construction planning",
+        "Compliance assurance for regulatory requirements"
+      ],
+      "projectTypes": [
+        "Manufacturing facilities",
+        "Processing plants",
+        "Distribution centers",
+        "Power generation facilities",
+        "Oil & gas facilities",
+        "Water treatment plants",
+        "Mining and extraction sites"
+      ],
+      "deliverables": [
+        "Industrial Cost Estimate Report",
+        "Equipment and Machinery Cost Breakdown",
+        "Process System Cost Analysis",
+        "Structural and Civil Works Estimate",
+        "Safety and Environmental Compliance Costs"
+      ],
+      "turnaroundTime": "3-5 business days",
+      "startingPrice": "$349"
+    },
+    {
+      "id": "xactimate-estimating",
+      "title": "Xactimate Estimating",
+      "slug": "xactimate-estimating",
+      "shortDescription": "Expert Xactimate estimates for insurance claims and restoration projects.",
+      "description": "We provide precise Xactimate estimates, essential for insurance claims, property damage assessment, and restoration projects. Our certified estimators ensure your claims are accurate, detailed, and compliant with industry standards.",
+      "icon": "FileText",
+      "image": "/placeholder.svg?height=400&width=600",
+      "features": [
+        "Certified Xactimate professionals",
+        "Detailed line-item estimates",
+        "Scope of work documentation",
+        "Photo and sketch integration",
+        "Compliance with insurance carrier guidelines",
+        "Fast turnaround for urgent claims"
+      ],
+      "benefits": [
+        "Faster and smoother insurance claim processing",
+        "Maximized claim value with accurate estimates",
+        "Reduced disputes with clear documentation",
+        "Professional and compliant estimates",
+        "Time-saving for contractors and adjusters"
+      ],
+      "projectTypes": [
+        "Water damage restoration",
+        "Fire damage repair",
+        "Storm damage reconstruction",
+        "Mold remediation",
+        "Property damage claims",
+        "Catastrophe response"
+      ],
+      "deliverables": [
+        "Xactimate Estimate Report (ESX/PDF)",
+        "Detailed Scope of Work",
+        "Sketch and Photo Reports",
+        "Line Item Breakdown",
+        "Summary of Costs"
+      ],
+      "turnaroundTime": "24-48 hours",
+      "startingPrice": "$199"
+    },
+    {
+      "id": "preliminary-estimate",
+      "title": "Preliminary Estimate",
+      "slug": "preliminary-estimate",
+      "shortDescription": "High-level cost estimates for early project planning and feasibility studies.",
+      "description": "Our preliminary estimating services provide quick, high-level cost assessments for your project's initial stages. These estimates are crucial for feasibility studies, budget allocation, and securing early-stage financing.",
+      "icon": "DollarSign",
+      "image": "/placeholder.svg?height=400&width=600",
+      "features": [
+        "Conceptual cost analysis",
+        "Budget range development",
+        "Feasibility assessment support",
+        "Early-stage risk identification",
+        "Comparative cost options",
+        "Quick turnaround for initial decisions"
+      ],
+      "benefits": [
+        "Early financial visibility for project viability",
+        "Informed decision-making at conceptual stage",
+        "Streamlined budget allocation",
+        "Support for financing applications",
+        "Reduced surprises in later project phases"
+      ],
+      "projectTypes": [
+        "Conceptual designs",
+        "Feasibility studies",
+        "Investment analysis",
+        "Pre-construction planning",
+        "Site selection analysis"
+      ],
+      "deliverables": [
+        "Preliminary Cost Estimate Report",
+        "Budget Range Analysis",
+        "Cost per Square Foot/Unit Breakdown",
+        "High-Level Risk Assessment",
+        "Comparative Cost Options"
+      ],
+      "turnaroundTime": "24-48 hours",
+      "startingPrice": "$129"
+    },
+    {
+      "id": "construction-takeoff",
+      "title": "Construction Takeoff",
+      "slug": "construction-takeoff",
+      "shortDescription": "Comprehensive quantity takeoff for all construction trades and materials.",
+      "description": "Our construction takeoff services provide detailed quantity analysis for all construction trades. We meticulously review architectural, structural, and MEP drawings to deliver accurate material and labor quantity takeoffs, essential for precise bidding and procurement.",
+      "icon": "Ruler",
+      "image": "/placeholder.svg?height=400&width=600",
+      "features": [
+        "Multi-trade quantity takeoffs (civil, structural, architectural, MEP)",
+        "Digital plan analysis using advanced software",
+        "Quantity verification and cross-checking",
+        "Trade-specific calculations and breakdowns",
+        "Coordination between different trades",
+        "Detailed reporting for procurement and bidding"
+      ],
+      "benefits": [
+        "Comprehensive quantity analysis across all trades",
+        "Accurate material planning and ordering",
+        "Reduced material waste and cost overruns",
+        "Streamlined procurement processes",
+        "Improved coordination among project teams"
+      ],
+      "projectTypes": [
+        "Multi-trade construction projects",
+        "Complex commercial developments",
+        "Large-scale residential projects",
+        "Industrial facility expansions",
+        "Infrastructure and civil works"
+      ],
+      "deliverables": [
+        "Comprehensive Quantity Takeoff Report",
+        "Material Lists by Trade",
+        "Labor Hour Estimates by Trade",
+        "Digital Takeoff Files (e.g., PDF markups)",
+        "Summary of Quantities"
+      ],
+      "turnaroundTime": "48-72 hours",
+      "startingPrice": "$199"
+    },
+    {
+      "id": "quantity-takeoff",
+      "title": "Quantity Takeoff",
+      "slug": "quantity-takeoff",
+      "shortDescription": "Precise quantity calculations for all construction materials and components.",
+      "description": "Our quantity takeoff services provide accurate measurements and counts for every material and component required for your construction project. This detailed analysis ensures you have the exact quantities needed for procurement and cost estimation.",
+      "icon": "Package",
+      "image": "/placeholder.svg?height=400&width=600",
+      "features": [
+        "Accurate measurement of all building components",
+        "Detailed material lists by type and size",
+        "Waste factor inclusion for realistic quantities",
+        "Digital plan analysis for precision",
+        "Customizable reporting formats",
+        "Cross-verification for accuracy"
+      ],
+      "benefits": [
+        "Eliminate material shortages or over-ordering",
+        "Optimize procurement and reduce costs",
+        "Improve bidding accuracy and competitiveness",
+        "Streamline project planning and scheduling",
+        "Reduce on-site waste and environmental impact"
+      ],
+      "projectTypes": [
+        "Residential new builds and renovations",
+        "Commercial fit-outs and expansions",
+        "Industrial plant upgrades",
+        "Civil engineering projects",
+        "Specialty construction projects"
+      ],
+      "deliverables": [
+        "Detailed Quantity Takeoff Report",
+        "Material Lists with Specifications",
+        "Summary of Quantities by Category",
+        "Digital Markup Files",
+        "Costing Integration Ready Data"
+      ],
+      "turnaroundTime": "24-48 hours",
+      "startingPrice": "$149"
+    },
+    {
+      "id": "material-takeoff",
+      "title": "Material Takeoff",
+      "slug": "material-takeoff",
+      "shortDescription": "Precise material quantity calculations and takeoff services.",
+      "description": "Our material takeoff services provide accurate quantity calculations for all construction materials. We analyze your project plans to deliver detailed material lists, helping you optimize procurement and reduce waste.",
+      "icon": "Package",
+      "image": "/placeholder.svg?height=400&width=600",
+      "features": [
+        "Precise quantity calculations for all materials",
+        "Detailed material specifications and types",
+        "Waste factor analysis for realistic ordering",
+        "Alternative material options and cost comparisons",
+        "Digital plan analysis for accuracy",
+        "Customizable reports for procurement"
+      ],
+      "benefits": [
+        "Accurate material ordering, preventing shortages or excess",
+        "Reduced material waste and associated costs",
+        "Better cost control throughout the project lifecycle",
+        "Streamlined procurement processes and supplier negotiations",
+        "Improved project efficiency and reduced delays"
+      ],
+      "projectTypes": [
+        "New construction projects",
+        "Renovation and remodeling projects",
+        "Commercial developments",
+        "Residential buildings",
+        "Civil engineering projects",
+        "MEP installations"
+      ],
+      "deliverables": [
+        "Detailed Material List",
+        "Quantity Calculations by Material Type",
+        "Material Specifications and Grades",
+        "Procurement Recommendations",
+        "Cost Comparison Analysis for Materials"
+      ],
+      "turnaroundTime": "24-48 hours",
+      "startingPrice": "$149"
+    },
+    {
+      "id": "bid-consultancy",
+      "title": "Bid Consultancy",
+      "slug": "bid-consultancy",
+      "shortDescription": "Strategic guidance and support to enhance your bidding success.",
+      "description": "Our bid consultancy services offer strategic guidance and support to help you navigate the complex bidding landscape. We provide insights into competitive analysis, proposal development, and negotiation tactics to increase your win rate.",
+      "icon": "FileText",
+      "image": "/placeholder.svg?height=400&width=600",
+      "features": [
+        "Competitive bid analysis and market positioning",
+        "Strategic proposal development and review",
+        "Negotiation strategy and support",
+        "Risk assessment for bid opportunities",
+        "Post-bid analysis and feedback",
+        "Client relationship management advice"
+      ],
+      "benefits": [
+        "Increased bid win rates and project acquisition",
+        "More competitive and compelling proposals",
+        "Improved negotiation outcomes",
+        "Reduced risks in bidding processes",
+        "Enhanced understanding of market dynamics"
+      ],
+      "projectTypes": [
+        "Public and private sector bids",
+        "Design-build proposals",
+        "Subcontractor bids",
+        "Large-scale project tenders",
+        "Specialty trade bids"
+      ],
+      "deliverables": [
+        "Bid Strategy Report",
+        "Proposal Review and Recommendations",
+        "Competitive Analysis Summary",
+        "Negotiation Playbook",
+        "Post-Bid Feedback Analysis"
+      ],
+      "turnaroundTime": "3-5 business days",
+      "startingPrice": "$299"
+    },
+    {
+      "id": "bid-preparation",
+      "title": "Bid Preparation",
+      "slug": "bid-preparation",
+      "shortDescription": "Complete bid package preparation and professional proposal development.",
+      "description": "Our bid preparation services help contractors and subcontractors create competitive, professional bid packages. We handle all aspects of bid development from accurate cost analysis to compelling proposal formatting, ensuring your submission stands out.",
+      "icon": "FileText",
+      "image": "/placeholder.svg?height=400&width=600",
+      "features": [
+        "Comprehensive bid package assembly",
+        "Accurate cost breakdown integration",
+        "Professional proposal writing and formatting",
+        "Compliance with tender requirements",
+        "Risk assessment and mitigation strategies",
+        "Value engineering options for competitive edge"
+      ],
+      "benefits": [
+        "Highly competitive and professional bid submissions",
+        "Increased chances of winning projects",
+        "Time-saving for your internal team",
+        "Reduced errors and omissions in bids",
+        "Enhanced reputation with well-prepared proposals"
+      ],
+      "projectTypes": [
+        "Public sector tenders",
+        "Private development bids",
+        "Subcontractor bid packages",
+        "Design-build proposals",
+        "Specialty trade bids"
+      ],
+      "deliverables": [
+        "Complete Bid Package (formatted for submission)",
+        "Detailed Cost Breakdown",
+        "Executive Summary and Project Narrative",
+        "Compliance Checklist",
+        "Supporting Documentation Assembly"
+      ],
+      "turnaroundTime": "3-5 business days",
+      "startingPrice": "$299"
+    },
+    {
+      "id": "proposal-development",
+      "title": "Proposal Development",
+      "slug": "proposal-development",
+      "shortDescription": "Crafting compelling and professional proposals that win projects.",
+      "description": "Our proposal development services focus on creating persuasive and visually appealing proposals that effectively communicate your value proposition. We transform your estimates into winning documents that resonate with clients.",
+      "icon": "FileText",
+      "image": "/placeholder.svg?height=400&width=600",
+      "features": [
+        "Customized proposal templates",
+        "Compelling project narratives",
+        "Integration of visuals and graphics",
+        "Highlighting key strengths and differentiators",
+        "Client-centric messaging",
+        "Professional editing and proofreading"
+      ],
+      "benefits": [
+        "Proposals that stand out from the competition",
+        "Increased client engagement and understanding",
+        "Higher conversion rates for your estimates",
+        "Professional brand image reinforcement",
+        "Time-saving for your sales and marketing teams"
+      ],
+      "projectTypes": [
+        "Construction project proposals",
+        "Service contracts",
+        "Partnership proposals",
+        "Client presentations",
+        "Investment proposals"
+      ],
+      "deliverables": [
+        "Custom-Designed Project Proposal",
+        "Executive Summary",
+        "Scope of Work Section",
+        "Cost Summary Integration",
+        "Company Profile and Team Overview"
+      ],
+      "turnaroundTime": "2-4 business days",
+      "startingPrice": "$199"
+    },
+    {
+      "id": "competitive-analysis",
+      "title": "Competitive Analysis",
+      "slug": "competitive-analysis",
+      "shortDescription": "In-depth analysis of competitor bids and market trends for strategic advantage.",
+      "description": "Our competitive analysis services provide insights into your competitors' bidding strategies, pricing, and market positioning. This intelligence helps you refine your own bids and identify opportunities for strategic advantage.",
+      "icon": "BarChart",
+      "image": "/placeholder.svg?height=400&width=600",
+      "features": [
+        "Competitor pricing benchmarks",
+        "Market trend identification",
+        "Bid win/loss analysis",
+        "SWOT analysis for bidding",
+        "Strategic recommendations for competitive edge",
+        "Industry best practices comparison"
+      ],
+      "benefits": [
+        "Improved bid competitiveness and win rates",
+        "Informed pricing strategies",
+        "Identification of market opportunities and threats",
+        "Better understanding of competitor strengths and weaknesses",
+        "Strategic decision-making for business growth"
+      ],
+      "projectTypes": [
+        "New market entry strategies",
+        "Large project bids",
+        "Strategic partnership evaluations",
+        "Business expansion planning",
+        "Annual bidding strategy review"
+      ],
+      "deliverables": [
+        "Competitive Analysis Report",
+        "Market Positioning Map",
+        "Competitor Pricing Benchmarks",
+        "Strategic Recommendations",
+        "SWOT Analysis Summary"
+      ],
+      "turnaroundTime": "3-5 business days",
+      "startingPrice": "$399"
+    },
+    {
+      "id": "project-management",
+      "title": "Project Management",
+      "slug": "project-management",
+      "shortDescription": "Comprehensive project management support for efficient project delivery.",
+      "description": "Our project management services provide comprehensive support to ensure your construction projects are delivered on time, within budget, and to the highest quality standards. We offer expertise in planning, execution, monitoring, and closing projects.",
+      "icon": "Calendar",
+      "image": "/placeholder.svg?height=400&width=600",
+      "features": [
+        "Project planning and initiation",
+        "Scope definition and management",
+        "Resource allocation and optimization",
+        "Risk management and mitigation",
+        "Quality control and assurance",
+        "Stakeholder communication and reporting"
+      ],
+      "benefits": [
+        "On-time and on-budget project delivery",
+        "Improved project efficiency and productivity",
+        "Reduced project risks and issues",
+        "Enhanced communication and collaboration",
+        "Higher project success rates and client satisfaction"
+      ],
+      "projectTypes": [
+        "Large-scale construction projects",
+        "Complex infrastructure developments",
+        "Multi-phase renovations",
+        "Industrial plant construction",
+        "Commercial building projects"
+      ],
+      "deliverables": [
+        "Project Management Plan",
+        "Detailed Project Schedule (Gantt/CPM)",
+        "Resource Allocation Plan",
+        "Risk Register",
+        "Progress Reports and Dashboards"
+      ],
+      "turnaroundTime": "Custom (based on project scope)",
+      "startingPrice": "Call for Price"
+    },
+    {
+      "id": "cpm-scheduling",
+      "title": "CPM Scheduling",
+      "slug": "cpm-scheduling",
+      "shortDescription": "Critical Path Method scheduling and project timeline management.",
+      "description": "Our CPM scheduling services help you optimize project timelines using Critical Path Method analysis. We create detailed project schedules that identify critical activities and help you manage resources efficiently.",
+      "icon": "Calendar",
+      "image": "/placeholder.svg?height=400&width=600",
+      "features": [
+        "Critical path identification and analysis",
+        "Detailed activity sequencing and dependencies",
+        "Resource leveling and optimization",
+        "Baseline schedule development",
+        "Progress tracking and schedule updates",
+        "Delay analysis and mitigation strategies"
+      ],
+      "benefits": [
+        "Optimized project timelines and reduced delays",
+        "Efficient resource allocation and utilization",
+        "Improved project control and predictability",
+        "Enhanced communication among project stakeholders",
+        "Stronger defense against delay claims"
+      ],
+      "projectTypes": [
+        "Large construction projects",
+        "Multi-phase developments",
+        "Complex renovations",
+        "Infrastructure projects",
+        "Industrial construction",
+        "Residential master-planned communities"
+      ],
+      "deliverables": [
+        "CPM Schedule (Primavera P6/MS Project)",
+        "Critical Path Analysis Report",
+        "Resource Loading Diagrams",
+        "Baseline Schedule Document",
+        "Progress Update Reports"
+      ],
+      "turnaroundTime": "3-5 business days",
+      "startingPrice": "$299"
+    },
+    {
+      "id": "project-planning",
+      "title": "Project Planning",
+      "slug": "project-planning",
+      "shortDescription": "Strategic project planning services for successful construction outcomes.",
+      "description": "Our project planning services lay the groundwork for successful construction projects. We develop comprehensive plans that define scope, objectives, resources, and timelines, ensuring a clear roadmap from conception to completion.",
+      "icon": "ClipboardCheck",
+      "image": "/placeholder.svg?height=400&width=600",
+      "features": [
+        "Detailed scope definition and breakdown",
+        "Objective setting and goal alignment",
+        "Resource identification and allocation",
+        "Risk assessment and mitigation planning",
+        "Stakeholder analysis and communication plan",
+        "Budget and timeline development"
+      ],
+      "benefits": [
+        "Clear project roadmap and direction",
+        "Reduced uncertainties and risks",
+        "Optimized resource utilization",
+        "Improved communication and collaboration",
+        "Enhanced project success rates"
+      ],
+      "projectTypes": [
+        "New construction projects",
+        "Major renovations",
+        "Infrastructure projects",
+        "Industrial expansions",
+        "Commercial developments",
+        "Feasibility studies"
+      ],
+      "deliverables": [
+        "Project Plan Document",
+        "Scope of Work (SOW)",
+        "Work Breakdown Structure (WBS)",
+        "Preliminary Schedule",
+        "Resource Plan"
+      ],
+      "turnaroundTime": "Custom (based on project scope)",
+      "startingPrice": "Call for Price"
+    },
+    {
+      "id": "timeline-management",
+      "title": "Timeline Management",
+      "slug": "timeline-management",
+      "shortDescription": "Expert management of project schedules to ensure on-time completion.",
+      "description": "Our timeline management services ensure your construction projects stay on schedule and meet deadlines. We actively monitor progress, identify potential delays, and implement corrective actions to keep your project moving forward efficiently.",
+      "icon": "Clock",
+      "image": "/placeholder.svg?height=400&width=600",
+      "features": [
+        "Continuous schedule monitoring and tracking",
+        "Identification of critical path deviations",
+        "Proactive delay mitigation strategies",
+        "Regular progress reporting and updates",
+        "Resource re-allocation for schedule adherence",
+        "Change order impact analysis on timeline"
+      ],
+      "benefits": [
+        "Guaranteed on-time project completion",
+        "Reduced financial penalties due to delays",
+        "Optimized resource utilization throughout the project",
+        "Improved client satisfaction with predictable delivery",
+        "Enhanced project control and visibility"
+      ],
+      "projectTypes": [
+        "Any construction project with strict deadlines",
+        "Large-scale developments",
+        "Projects with complex logistics",
+        "Fast-track construction",
+        "Projects requiring tight coordination"
+      ],
+      "deliverables": [
+        "Detailed Progress Reports",
+        "Updated Project Schedules",
+        "Delay Analysis Reports",
+        "Corrective Action Plans",
+        "Forecasted Completion Dates"
+      ],
+      "turnaroundTime": "Ongoing (monthly/weekly)",
+      "startingPrice": "Call for Price"
+    },
+    {
+      "id": "resource-allocation",
+      "title": "Resource Allocation",
+      "slug": "resource-allocation",
+      "shortDescription": "Optimizing the deployment of labor, equipment, and materials for project efficiency.",
+      "description": "Our resource allocation services ensure optimal deployment of your project's labor, equipment, and materials. We develop strategic plans to maximize efficiency, minimize waste, and keep your project on track and within budget.",
+      "icon": "Users",
+      "image": "/placeholder.svg?height=400&width=600",
+      "features": [
+        "Detailed labor resource planning",
+        "Equipment utilization optimization",
+        "Material flow and inventory management",
+        "Skill-based team assignments",
+        "Cost-effective resource procurement strategies",
+        "Real-time resource tracking and adjustments"
+      ],
+      "benefits": [
+        "Maximized resource efficiency and productivity",
+        "Reduced labor and equipment costs",
+        "Minimized material waste and storage expenses",
+        "Improved project timelines and delivery",
+        "Enhanced overall project profitability"
+      ],
+      "projectTypes": [
+        "Labor-intensive construction projects",
+        "Projects with specialized equipment needs",
+        "Large-scale material procurement projects",
+        "Multi-site construction operations",
+        "Projects with tight budget constraints"
+      ],
+      "deliverables": [
+        "Resource Allocation Plan",
+        "Labor Loading Charts",
+        "Equipment Utilization Schedules",
+        "Material Procurement Schedule",
+        "Resource Cost Analysis"
+      ],
+      "turnaroundTime": "Custom (based on project scope)",
+      "startingPrice": "Call for Price"
+    },
+    {
+      "id": "construction-consultant",
+      "title": "Construction Estimating Consultant",
+      "slug": "construction-consultant",
+      "shortDescription": "Expert consulting services for all your construction estimating needs.",
+      "description": "Our construction estimating consultant services provide expert guidance and strategic advice to enhance your in-house estimating capabilities, optimize processes, and improve your overall bidding success. We act as an extension of your team.",
+      "icon": "Building",
+      "image": "/placeholder.svg?height=400&width=600",
+      "features": [
+        "Process optimization and workflow analysis",
+        "Software implementation and training",
+        "Team skill development and coaching",
+        "Strategic bidding advice",
+        "Market analysis and trend insights",
+        "Customized estimating solutions"
+      ],
+      "benefits": [
+        "Improved accuracy and efficiency of in-house estimates",
+        "Enhanced competitive advantage in bidding",
+        "Optimized resource utilization for estimating teams",
+        "Reduced errors and omissions in bids",
+        "Strategic insights for business growth"
+      ],
+      "projectTypes": [
+        "Contractors seeking to improve estimating department",
+        "New construction companies establishing processes",
+        "Firms looking to expand service offerings",
+        "Companies needing specialized estimating expertise",
+        "Businesses aiming for higher bid win rates"
+      ],
+      "deliverables": [
+        "Consulting Report with Recommendations",
+        "Process Improvement Plan",
+        "Training Materials (if applicable)",
+        "Strategic Bidding Playbook",
+        "Performance Metrics Analysis"
+      ],
+      "turnaroundTime": "Custom (retainer/project-based)",
+      "startingPrice": "Call for Price"
+    },
+    {
+      "id": "monthly-services",
+      "title": "Monthly Services",
+      "slug": "monthly-services",
+      "shortDescription": "Ongoing, dedicated estimating support with flexible monthly packages.",
+      "description": "Our monthly estimating services provide continuous, dedicated support for your ongoing project needs. Choose from flexible packages that offer consistent access to our expert estimators, ensuring you always have the capacity to bid and win projects.",
+      "icon": "Calendar",
+      "image": "/placeholder.svg?height=400&width=600",
+      "features": [
+        "Dedicated estimating team access",
+        "Priority turnaround times",
+        "Unlimited project submissions (within package limits)",
+        "Regular progress reports and consultations",
+        "Flexible hours and service adjustments",
+        "Cost-effective alternative to in-house staff"
+      ],
+      "benefits": [
+        "Consistent estimating capacity without overhead",
+        "Faster bid submissions and project acquisition",
+        "Reduced operational costs compared to full-time hires",
+        "Access to diverse estimating expertise",
+        "Scalable support as your business grows"
+      ],
+      "projectTypes": [
+        "High-volume bidding contractors",
+        "Growing construction firms",
+        "Companies with fluctuating estimating needs",
+        "Businesses seeking long-term estimating partnerships",
+        "Firms without dedicated in-house estimators"
+      ],
+      "deliverables": [
+        "Monthly Estimate Reports",
+        "Project Tracking Dashboard",
+        "Regular Consultation Calls",
+        "Dedicated Communication Channel",
+        "Performance Summary"
+      ],
+      "turnaroundTime": "Ongoing (monthly retainer)",
+      "startingPrice": "$1499/month"
+    },
+    {
+      "id": "dedicated-estimator",
+      "title": "Dedicated Estimator",
+      "slug": "dedicated-estimator",
+      "shortDescription": "Your own dedicated, expert estimator as an extension of your team.",
+      "description": "Gain a competitive edge with a dedicated estimator assigned exclusively to your projects. This service provides you with a consistent, expert resource who understands your specific needs and integrates seamlessly with your workflow, acting as a true extension of your team.",
+      "icon": "UserCheck",
+      "image": "/placeholder.svg?height=400&width=600",
+      "features": [
+        "Exclusive access to a senior estimator",
+        "Deep understanding of your company's processes and preferences",
+        "Consistent communication and collaboration",
+        "Priority on all your estimating needs",
+        "Long-term partnership for sustained growth",
+        "Customized reporting and analysis"
+      ],
+      "benefits": [
+        "Unparalleled consistency and quality in estimates",
+        "Faster turnaround times for all your projects",
+        "Reduced overhead costs compared to hiring in-house",
+        "Strategic insights tailored to your business",
+        "Seamless integration with your existing team",
+        "Increased bid win rates and project profitability"
+      ],
+      "projectTypes": [
+        "High-volume general contractors",
+        "Large-scale developers",
+        "Companies with complex, ongoing estimating needs",
+        "Firms seeking a long-term, integrated estimating solution",
+        "Businesses aiming for significant growth"
+      ],
+      "deliverables": [
+        "Dedicated Estimator Service Agreement",
+        "Customized Estimating Reports",
+        "Regular Performance Reviews",
+        "Direct Communication Channel",
+        "Strategic Planning Sessions"
+      ],
+      "turnaroundTime": "Ongoing (monthly retainer)",
+      "startingPrice": "Call for Price"
+    }
+  ]
+}

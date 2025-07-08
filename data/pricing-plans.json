@@ -1,0 +1,61 @@
+[
+  {
+    "name": "Single Trade Pricing",
+    "description": "Perfect for individual projects and specific trades",
+    "price": "$199",
+    "period": "Specific Trade",
+    "popular": false,
+    "features": [
+      "Turnaround Time 24 to 48 Hrs",
+      "Any Trade or Any Kind of Project",
+      "Free Quote Within 5 to 10 Minutes",
+      "Free Consultation",
+      "Immediate and Unlimited Revisions",
+      "24/7 Email Support",
+      "Live Chat and Call Support"
+    ],
+    "note": "We charge less (within $100) for small projects that require a few hours to get estimated.",
+    "buttonText": "Get Started",
+    "buttonVariant": "default"
+  },
+  {
+    "name": "Monthly Packages",
+    "description": "Best value for ongoing construction projects",
+    "price": "$1,499",
+    "period": "Per Month",
+    "popular": true,
+    "features": [
+      "10 to 15 Projects",
+      "Bid Filing and Consultation",
+      "Material Takeoffs and Cost Management",
+      "Turnaround Time 24 to 48 Hrs",
+      "Any Trade or Any Kind of Project",
+      "Free Quote Within 5 to 10 Minutes",
+      "Free Consultation",
+      "Priority Support"
+    ],
+    "note": "Terms and Conditions apply",
+    "buttonText": "Get Started",
+    "buttonVariant": "default"
+  },
+  {
+    "name": "Dedicated Construction Estimator",
+    "description": "Full-service estimating with dedicated resources",
+    "price": "Call For Price",
+    "period": "Custom Quote",
+    "popular": false,
+    "features": [
+      "Dedicated Resources",
+      "Feasibility Studies",
+      "Consultation on Smartly Filing Bids",
+      "Manage the Bidding Network Profiles",
+      "Project Scheduling",
+      "Material Takeoffs",
+      "Cost Management",
+      "Documentation & Change Orders"
+    ],
+    "note": "Terms and Conditions apply",
+    "buttonText": "Get Started",
+    "buttonVariant": "outline"
+  }
+]
