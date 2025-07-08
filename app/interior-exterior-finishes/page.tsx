@@ -94,7 +94,7 @@ export default function InteriorExteriorFinishesPage() { // Renamed export for c
         {/* Background Image - Placeholder for an interior/exterior finishes themed image */}
         <div className="absolute inset-0">
           <Image
-            src="/images/interior-exterior-hero.jpg" // Replace with an actual image path for finishes
+            src="case.jpg" // Replace with an actual image path for finishes
             alt="Interior designer selecting finishes for a new building"
             fill
             className="object-cover"
