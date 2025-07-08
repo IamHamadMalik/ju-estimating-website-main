@@ -95,7 +95,6 @@ export default function OurTradesPage() {
     },
   ]
 
-
   return (
     <>
       {/* Hero Section */}
