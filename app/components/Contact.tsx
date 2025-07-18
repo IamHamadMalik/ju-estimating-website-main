@@ -1,7 +1,6 @@
 "use client"
-
-import type React from "react"
-
+import { useEffect } from "react"
+import { useActionState } from "react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
@@ -9,30 +8,22 @@ import { Label } from "@/components/ui/label"
 import { Textarea } from "@/components/ui/textarea"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { Phone, Mail, MapPin, Clock } from "lucide-react"
-import { useState } from "react"
 import { siteConfig } from "@/lib/config"
+import { toast } from "@/hooks/use-toast"
+import { submitContactForm } from "@/app/actions"
 
 export default function Contact() {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    company: "",
-    phone: "",
-    projectType: "",
-    projectValue: "",
-    timeline: "",
-    message: "",
-  })
+  const [state, formAction, isPending] = useActionState(submitContactForm, null)
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault()
-    // Handle form submission
-    console.log("Form submitted:", formData)
-  }
-
-  const handleChange = (field: string, value: string) => {
-    setFormData((prev) => ({ ...prev, [field]: value }))
-  }
+  useEffect(() => {
+    if (state?.message) {
+      toast({
+        title: state.success ? "Success!" : "Error",
+        description: state.message,
+        variant: state.success ? "default" : "destructive",
+      })
+    }
+  }, [state])
 
   return (
     <section id="contact" className="py-20 bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 text-white">
@@ -52,64 +43,33 @@ export default function Contact() {
                 <CardTitle className="text-2xl text-white">Request a Quote</CardTitle>
               </CardHeader>
               <CardContent>
-                <form onSubmit={handleSubmit} className="space-y-6">
+                <form action={formAction} className="space-y-6">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div>
-                      <Label htmlFor="name" className="text-slate-300">
-                        Full Name *
-                      </Label>
-                      <Input
-                        id="name"
-                        value={formData.name}
-                        onChange={(e) => handleChange("name", e.target.value)}
-                        className="bg-slate-700 border-slate-600 text-white"
-                        required
-                      />
+                      <Label htmlFor="name" className="text-slate-300">Full Name *</Label>
+                      <Input id="name" name="name" className="bg-slate-700 border-slate-600 text-white" required />
                     </div>
                     <div>
-                      <Label htmlFor="email" className="text-slate-300">
-                        Email Address *
-                      </Label>
-                      <Input
-                        id="email"
-                        type="email"
-                        value={formData.email}
-                        onChange={(e) => handleChange("email", e.target.value)}
-                        className="bg-slate-700 border-slate-600 text-white"
-                        required
-                      />
+                      <Label htmlFor="email" className="text-slate-300">Email Address *</Label>
+                      <Input id="email" type="email" name="email" className="bg-slate-700 border-slate-600 text-white" required />
                     </div>
                   </div>
 
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div>
-                      <Label htmlFor="company" className="text-slate-300">
-                        Company Name
-                      </Label>
-                      <Input
-                        id="company"
-                        value={formData.company}
-                        onChange={(e) => handleChange("company", e.target.value)}
-                        className="bg-slate-700 border-slate-600 text-white"
-                      />
+                      <Label htmlFor="company" className="text-slate-300">Company Name</Label>
+                      <Input id="company" name="company" className="bg-slate-700 border-slate-600 text-white" />
                     </div>
                     <div>
-                      <Label htmlFor="phone" className="text-slate-300">
-                        Phone Number
-                      </Label>
-                      <Input
-                        id="phone"
-                        value={formData.phone}
-                        onChange={(e) => handleChange("phone", e.target.value)}
-                        className="bg-slate-700 border-slate-600 text-white"
-                      />
+                      <Label htmlFor="phone" className="text-slate-300">Phone Number</Label>
+                      <Input id="phone" name="phone" className="bg-slate-700 border-slate-600 text-white" />
                     </div>
                   </div>
 
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div>
                       <Label className="text-slate-300">Project Type *</Label>
-                      <Select onValueChange={(value) => handleChange("projectType", value)}>
+                      <Select name="projectType" required>
                         <SelectTrigger className="bg-slate-700 border-slate-600 text-white">
                           <SelectValue placeholder="Select project type" />
                         </SelectTrigger>
@@ -125,7 +85,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <Label className="text-slate-300">Estimated Project Value</Label>
-                      <Select onValueChange={(value) => handleChange("projectValue", value)}>
+                      <Select name="projectValue">
                         <SelectTrigger className="bg-slate-700 border-slate-600 text-white">
                           <SelectValue placeholder="Select value range" />
                         </SelectTrigger>
@@ -142,7 +102,7 @@ export default function Contact() {
 
                   <div>
                     <Label className="text-slate-300">Timeline</Label>
-                    <Select onValueChange={(value) => handleChange("timeline", value)}>
+                    <Select name="timeline">
                       <SelectTrigger className="bg-slate-700 border-slate-600 text-white">
                         <SelectValue placeholder="When do you need the estimate?" />
                       </SelectTrigger>
@@ -156,24 +116,17 @@ export default function Contact() {
                   </div>
 
                   <div>
-                    <Label htmlFor="message" className="text-slate-300">
-                      Project Details
-                    </Label>
+                    <Label htmlFor="message" className="text-slate-300">Project Details</Label>
                     <Textarea
                       id="message"
-                      value={formData.message}
-                      onChange={(e) => handleChange("message", e.target.value)}
+                      name="message"
                       placeholder="Please provide details about your project, including scope, location, and any specific requirements..."
                       className="bg-slate-700 border-slate-600 text-white min-h-[120px]"
                     />
                   </div>
 
-                  <Button
-                    type="submit"
-                    size="lg"
-                    className="w-full bg-amber-500 hover:bg-amber-600 text-slate-900 font-semibold"
-                  >
-                    Submit Request
+                  <Button type="submit" size="lg" className="w-full bg-amber-500 hover:bg-amber-600 text-slate-900 font-semibold" disabled={isPending}>
+                    {isPending ? "Submitting..." : "Submit Request"}
                   </Button>
                 </form>
               </CardContent>
