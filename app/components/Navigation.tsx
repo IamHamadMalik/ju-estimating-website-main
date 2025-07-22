@@ -158,12 +158,14 @@ export default function ServicesNavigation() {
                     <Phone className="h-4 w-4 mr-2" />
                     <span className="text-sm font-medium">{siteConfig.phoneDisplay}</span>
                   </div>
-                  <Link
-                    href="/contact"
+                  <a
+                    href="https://reach.at/juestimating"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="bg-amber-500 hover:bg-amber-600 text-slate-900 px-4 py-2 rounded-lg text-sm font-semibold transition-colors"
-                  >
+                    >
                     Get Free Quote
-                  </Link>
+                </a>
                 </div>
               </div>
             </div>
@@ -276,12 +278,14 @@ export default function ServicesNavigation() {
                                             {siteConfig.phoneDisplay}
                                         </span>
                                     </div>
-                                    <Link
-                                        href="/contact"
+                                    <a
+                                        href="https://reach.at/juestimating"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
                                         className="bg-amber-500 hover:bg-amber-600 text-slate-900 px-4 py-2 rounded-lg text-sm font-semibold transition-colors inline-block"
                                     >
                                         Get Free Quote
-                                    </Link>
+                                    </a>
                                 </div>
                             </div>
                         </div>

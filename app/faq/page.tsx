@@ -91,11 +91,14 @@ export default function FAQPage() {
               Can't find the answer you're looking for? Our team is here to help with personalized assistance.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href="/#contact">
-                <Button size="lg" className="bg-amber-500 hover:bg-amber-600 text-white px-8 py-3 rounded-xl">
-                  Get Free Quote
-                </Button>
-              </Link>
+              <a
+                href="https://reach.at/juestimating"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center bg-amber-500 hover:bg-amber-600 text-white px-8 py-3 rounded-xl text-base font-medium transition-colors"
+              >
+                Get Free Quote
+              </a>
               <Button
                 size="lg"
                 variant="outline"

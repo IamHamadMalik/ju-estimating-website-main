@@ -6,6 +6,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 import { Toaster } from "@/components/ui/toaster"
 import Navigation from "./components/Navigation" // Added import
 import Footer from "./components/Footer" // Added import
+import FloatingChat from "@/app/components/FloatingChat"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -29,6 +30,7 @@ export default function RootLayout({
           <Navigation /> {/* Added Navigation */}
           {children}
           <Footer /> {/* Added Footer */}
+          <FloatingChat />
           <Toaster />
         </ThemeProvider>
       </body>

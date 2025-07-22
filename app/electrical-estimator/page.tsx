@@ -124,7 +124,8 @@ export default function ElectricalEstimatorsPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="mailto:info@juestimating.com"
+                href="https://reach.at/juestimating"
+                target="_blank"
                 className="inline-block bg-yellow-400 text-blue-900 font-semibold py-3 px-6 rounded-lg hover:bg-yellow-500 transition text-lg shadow-md hover:shadow-lg"
               >
                 Get a Free Quote
@@ -488,7 +489,8 @@ export default function ElectricalEstimatorsPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="mailto:info@juestimating.com"
+              href="https://reach.at/juestimating"
+              target="_blank"
               className="inline-block bg-yellow-400 text-blue-900 font-semibold py-3 px-6 rounded-lg hover:bg-yellow-500 transition shadow-md hover:shadow-lg"
             >
               Request a Quote

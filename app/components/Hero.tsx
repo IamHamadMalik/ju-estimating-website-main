@@ -37,13 +37,15 @@ export default function Hero() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
-              <Button
-                size="lg"
-                className="bg-amber-500 hover:bg-amber-600 text-slate-900 font-semibold text-lg px-8 py-4 shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-200"
+              <a
+                href="https://reach.at/juestimating"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center bg-amber-500 hover:bg-amber-600 text-slate-900 font-semibold text-lg px-8 py-4 shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-200 rounded-md"
               >
                 Get Free Quote
                 <ArrowRight className="ml-2 h-5 w-5" />
-              </Button>
+              </a>
             </div>
           </div>
 

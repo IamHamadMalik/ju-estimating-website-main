@@ -116,7 +116,8 @@ export default function SiteworkEstimatingServicesPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="mailto:info@juestimating.com"
+                href="https://reach.at/juestimating"
+                target="_blank"
                 className="inline-block bg-yellow-400 text-black font-semibold py-3 px-6 rounded-lg hover:bg-yellow-500 transition text-lg"
               >
                 Get a Free Quote
@@ -264,7 +265,8 @@ export default function SiteworkEstimatingServicesPage() {
             Sitework is the critical first step for any construction project, and accurate estimates here are paramount to avoiding costly delays and unforeseen expenses. Our team specializes in meticulous takeoffs for every aspect of site preparation, from complex earthwork calculations and utility installations to paving and landscaping. We provide the detailed numbers you need to bid confidently and manage your project efficiently from the ground up.
           </p>
           <a
-            href="mailto:info@juestimating.com"
+            href="https://reach.at/juestimating"
+            target="_blank"
             className="inline-block bg-yellow-400 text-blue-900 font-semibold py-4 px-8 rounded-lg text-lg shadow-lg hover:bg-yellow-500 transition-all duration-300 transform hover:scale-105"
           >
             Let's Get the Estimation
@@ -631,7 +633,8 @@ export default function SiteworkEstimatingServicesPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="mailto:info@juestimating.com"
+              href="https://reach.at/juestimating"
+              target="_blank"
               className="inline-block bg-yellow-400 text-black font-semibold py-3 px-6 rounded-lg hover:bg-yellow-500 transition"
             >
               Request a Quote

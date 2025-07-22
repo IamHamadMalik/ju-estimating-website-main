@@ -99,9 +99,14 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
             <p className="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">{service.shortDescription}</p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="bg-amber-500 hover:bg-amber-600 text-slate-900 font-semibold">
+              <a
+                href="https://reach.at/juestimating"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center bg-amber-500 hover:bg-amber-600 text-slate-900 font-semibold text-lg px-6 py-3 rounded-md transition-colors"
+              >
                 Get Free Quote
-              </Button>
+              </a>
               <Button
                 size="lg"
                 variant="outline"
@@ -237,9 +242,14 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
               detailed quote.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="bg-amber-500 hover:bg-amber-600 text-slate-900 font-semibold">
+              <a
+                href="https://reach.at/juestimating"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center bg-amber-500 hover:bg-amber-600 text-slate-900 font-semibold text-lg px-6 py-3 rounded-md transition-colors"
+              >
                 Get Free Quote
-              </Button>
+              </a>
               <Button
                 size="lg"
                 variant="outline"

@@ -115,7 +115,8 @@ export default function OpeningsEstimatingServicesPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="mailto:info@juestimating.com"
+                href="https://reach.at/juestimating"
+                target="_blank"
                 className="inline-block bg-yellow-400 text-black font-semibold py-3 px-6 rounded-lg hover:bg-yellow-500 transition text-lg"
               >
                 Get a Free Quote
@@ -263,7 +264,8 @@ export default function OpeningsEstimatingServicesPage() {
             The sheer variety and intricate details of doors, windows, frames, and hardware can make openings estimating a daunting task. Our specialized estimators cut through the complexity, providing you with precise, itemized takeoffs and cost analyses. This ensures that every component is accounted for, from standard entries to specialty thermal-glazed systems, preventing costly omissions and ensuring your bids are competitive and accurate.
           </p>
           <a
-            href="mailto:info@juestimating.com"
+            href="https://reach.at/juestimating"
+            target="_blank"
             className="inline-block bg-yellow-400 text-blue-900 font-semibold py-4 px-8 rounded-lg text-lg shadow-lg hover:bg-yellow-500 transition-all duration-300 transform hover:scale-105"
           >
             Ask for a Free Estimation
@@ -587,7 +589,8 @@ export default function OpeningsEstimatingServicesPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="mailto:info@juestimating.com"
+              href="https://reach.at/juestimating"
+              target="_blank"
               className="inline-block bg-yellow-400 text-black font-semibold py-3 px-6 rounded-lg hover:bg-yellow-500 transition"
             >
               Request a Quote

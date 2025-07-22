@@ -166,11 +166,14 @@ export default function PricingPage() {
               Get started today with a free consultation and see why contractors trust JU Estimating.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href="/#contact">
-                <Button size="lg" className="bg-amber-500 hover:bg-amber-600 text-slate-900 px-8 py-3 rounded-xl">
-                  Get Free Quote
-                </Button>
-              </Link>
+              <a
+                href="https://reach.at/juestimating"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center bg-amber-500 hover:bg-amber-600 text-slate-900 px-8 py-3 rounded-xl text-lg font-semibold transition-colors"
+              >
+                Get Free Quote
+              </a>
               <Button
                 size="lg"
                 variant="outline"
